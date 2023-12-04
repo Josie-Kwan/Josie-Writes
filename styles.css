@@ -12,6 +12,12 @@ body {
     font-size: 125%;
     max-width: 150%;
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+
 }
 
 .header-item {
