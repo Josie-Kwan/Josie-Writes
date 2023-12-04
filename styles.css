@@ -95,9 +95,13 @@ body {
 .footer {
     display: flex;
     justify-content: center;
-    float: inline-start;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
     background-color: white;
     color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 *{
