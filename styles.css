@@ -93,6 +93,7 @@ body {
  }
 
 .footer {
+    clear: both;
     display: flex;
     justify-content: center;
     text-align: center;
