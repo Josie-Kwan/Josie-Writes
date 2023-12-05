@@ -12,8 +12,8 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 }
 
 // Create connection to spreadsheet (replace with your details)
-$spreadsheet_url = "https://docs.google.com/spreadsheets/d/1eM8uxmBCpDw2uuhfiuTGrpbx-oqcFuO7SY-Y9me3xgY/edit?usp=sharing";
-$spreadsheet_id = "YOUR_SPREADSHEET_ID";
+$spreadsheet_url = "https://docs.google.com/spreadsheets/d/YOUR_SPREADSHEET_ID/edit";
+$spreadsheet_id = "1eM8uxmBCpDw2uuhfiuTGrpbx-oqcFuO7SY-Y9me3xgY";
 $sheet_name = "Sheet1"; // Change this if needed
 
 // Open spreadsheet
