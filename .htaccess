@@ -1,2 +1,1 @@
-RewriteEngine On
-RewriteRule ^process.php$ process.php [L]
+
