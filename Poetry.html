@@ -21,7 +21,11 @@
     </div>
   </head>
   <body>
-
+    <script>
+      function openPopup(url) {
+        window.open(url, "poemPopup", "width=800,height=600");
+      }
+      </script>      
     <div><main class="main">
         <h1 style="text-align: center;">Poetry</h1>
       <div class="clearfix">
@@ -29,7 +33,7 @@
             <iframe loading="lazy" style="position: relative; width: 100%; height: 600px; max-height: 80vh; border: none; padding: 0; margin: 0; overflow: hidden;"
             src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFujFECztU&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
           </iframe>
-          <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFujFECztU&#x2F;view?utm_content=DAFujFECztU&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Not Coffee, Tea</a> by Josie Kwan
+          <a href="javascript:void(0);" onclick="openPopup('https://www.canva.com/design/DAFujFECztU/view?embed')">Not Coffee, Tea</a> by Josie Kwan
         </div>
         <div class="box" style="background-color:#ccc">
         <iframe loading="lazy" style="position: relative; width: 100%; height: 600px; max-height: 80vh; border: none; padding: 0; margin: 0; overflow: hidden;"
