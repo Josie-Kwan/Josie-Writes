@@ -1,31 +1,22 @@
 <?php
 
 // Get email from form
-$email = $_POST['email'];
+$email = trim($_POST['email']);
 
-// Validate email address (optional)
+// Validate email address
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-  echo '<span style="color: red;">Please enter a valid email address.</span>';
-  exit; // Stops script execution after showing the error message
+  echo "Invalid email address!";
+  exit; // Stop script execution if invalid
 }
 
+// Create a file to store emails 
+$file = fopen("emails.txt", "a");
 
-$spreadsheet_url = "https://docs.google.com/spreadsheets/d/1eM8uxmBCpDw2uuhfiuTGrpbx-oqcFuO7SY-Y9me3xgY";
-$sheet_name = "Sheet1"; 
+// Write email to the file
+fwrite($file, $email . PHP_EOL);
 
-$spreadsheet = new Spreadsheet_Excel_Reader($spreadsheet_url);
-
-// Get sheet
-$sheet = $spreadsheet->sheets[0];
-
-// Find next empty row
-$row_number = count($sheet['cells']) + 1; // Assumes starting from row 1
-
-// Set email in spreadsheet
-$sheet['cells'][$row_number][1] = $email;
-
-// Save spreadsheet
-$spreadsheet->writeXLS($spreadsheet_url); // Replace with actual saving method if using a library
+// Close the file
+fclose($file);
 
 // Success message
 echo "Thank you for subscribing! Your email has been added.";
