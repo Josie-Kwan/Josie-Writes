@@ -21,7 +21,15 @@
     </div>
   </head>
   <body>
+    //lightbox to let user open jpegs and zoom
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script>
+      $('.lightbox').magnificPopup({
+        type: 'image'
+      });
+      </script>
 
+      //code for the boxes the poems are in, iframes linked from canva embeded
     <div><main class="main">
         <h1 style="text-align: center;">Poetry</h1>
       <div class="clearfix">
@@ -63,7 +71,9 @@
     <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFujGr8Pis&#x2F;view?utm_content=DAFujGr8Pis&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">The Princess Becomes a Queen</a> by Josie Kwan
       </div>
     <div class="box" style="background-color: #ccc;">
-      <img src="images/To All the Boys I was too Scared to Love.jpg">To All The Boys, I Was Too Scared to Love,> by Josie Kwan
+      <a href="images/To all the Boys I was too Scared to Love.jpg" class="lightbox">
+        <img src="images/To all the Boys I was too Scared to Love.jpg" alt="To All The Boys I Was Too Scared To Love">
+      </a>      
     </div>
     </main></div>
 
