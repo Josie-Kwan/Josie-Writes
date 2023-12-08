@@ -83,6 +83,12 @@ body {
     float: right;
     font-size: 0.8em;
   }
+
+  .divider {
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+    width: 100%;
+  }
   
 *{
     box-sizing: border-box;
