@@ -71,7 +71,6 @@ body {
   }
   
   .social-icons {
-    display:flexbox;
     justify-content: center;
     margin-bottom: 10px;
     size: 50px;
