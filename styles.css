@@ -5,6 +5,10 @@ body {
     padding-top: 70px;       
 }
 
+.main {
+    min-height: 100vh; 
+  }
+  
 .header {
     padding: 0px 0px;
     padding: 1.5%;
