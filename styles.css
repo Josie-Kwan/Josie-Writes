@@ -92,7 +92,10 @@ body {
     background-color: rgba(0,0,0,0.8);
     color: white;
   }
-  
+
+  .author {
+    color: cornflowerblue;
+  }
 
 .footer {
     background-color:white;
