@@ -55,8 +55,8 @@ body {
 
 .slideshow-container {
     position: relative;
-    background: #bbb;
-    height: 25%;
+    background: white;
+    height: 200px;
     box-sizing: border-box;
   }
   
@@ -65,6 +65,7 @@ body {
     display: none;
     padding: 80px;
     text-align: center;
+    background: #bbb;
   }
   
   /* Next & previous buttons */
