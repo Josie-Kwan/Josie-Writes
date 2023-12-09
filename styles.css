@@ -59,13 +59,11 @@ body {
     padding: 20px;
     display: flex;
     text-align: center;
-    width: 100%;
     box-sizing: border-box;
   }
   
   .copyright {
     float: right;
-    text-align: center;
     font-size: 0.8em;
     margin-left: 20px;
   }
