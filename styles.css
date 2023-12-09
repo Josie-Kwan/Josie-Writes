@@ -84,6 +84,18 @@ body {
     margin-right: 20px;
   }
 
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  div::after {
+    content: "";
+    border-left: 1px solid #ddd;
+    margin: 10px 20px;
+  }
+  
+
 *{
     box-sizing: border-box;
   }
