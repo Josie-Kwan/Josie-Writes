@@ -53,24 +53,6 @@ body {
     text-align: end;
 }
 
-.text-container {
-    background-size: cover;
-    background-position: center;
-    padding: 20px;
-  }
-  
-  .typed-text {
-    display: inline-block;
-    opacity: 0;
-    animation: type-writer 5s ease-in-out;
-  }
-  
-  @keyframes type-writer {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  
-
 .footer {
     background-color:white;
     color: black;
