@@ -107,7 +107,7 @@ body {
     padding: 10px;
     box-sizing: border-box;
     position: absolute;
-    bottom: 5px;
+    bottom: auto;
   }
 
   
