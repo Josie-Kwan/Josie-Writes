@@ -54,11 +54,6 @@ body {
 }
 
 
-#main-logo {
-    height: 50px;
-    width: auto;
-}
-
 .footer {
     background-color:white;
     color: black;
@@ -74,11 +69,7 @@ body {
     font-size: 0.8em;
   }
 
-  .divider {
-    border-top: 1px solid #ddd;
-    margin: 10px 0;
-    width: 100%;
-  }
+
   #email {
     float: left;
     margin-right: 20px;
