@@ -56,6 +56,7 @@ body {
 .slideshow-container {
     position: relative;
     background: #f1f1f1f1;
+    height: 25%;
   }
   
   /* Slides */
@@ -63,7 +64,6 @@ body {
     display: none;
     padding: 80px;
     text-align: center;
-    height: 25%;
   }
   
   /* Next & previous buttons */
