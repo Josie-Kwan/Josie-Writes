@@ -108,6 +108,8 @@ body {
     box-sizing: border-box;
     position: absolute;
     bottom: auto;
+    height: 2.5rem;   
+    width: 100%;
   }
 
   #page-container {
