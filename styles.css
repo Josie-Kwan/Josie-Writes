@@ -67,7 +67,6 @@ body {
     background: #bbb;
     height: auto;
   }
-  
   /* Next & previous buttons */
   .prev, .next {
     cursor: pointer;
@@ -119,6 +118,7 @@ body {
     text-decoration: none;
     color: #000;
   }
+  
   #email:hover {
     text-decoration: underline;
     color: black;
