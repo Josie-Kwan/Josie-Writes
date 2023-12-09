@@ -72,10 +72,12 @@ body {
     margin-right: 20px;
     font-size: 0.8em;
     text-decoration: none;
+    color: #000;
   }
   #email:hover {
     text-decoration: underline;
     color: black;
+    background-color: #ddd;
   }
 
   hr.solid {
