@@ -71,6 +71,11 @@ body {
     float: left;
     margin-right: 20px;
     font-size: 0.8em;
+    text-decoration: none;
+  }
+  #email:hover {
+    text-decoration: underline;
+    color: black;
   }
 
   hr.solid {
