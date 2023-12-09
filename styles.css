@@ -85,7 +85,8 @@ body {
   }
 
   .vl {
-    border-left: 6px solid green;
+    border-color: black;
+    border-radius: 5px;
     height: 500px;
   }
 
