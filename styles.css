@@ -108,18 +108,10 @@ body {
     box-sizing: border-box;
     position: absolute;
     bottom: auto;
-    height: 2.5rem;   
+    height: 5rem;   
     width: 100%;
   }
 
-  #page-container {
-    position: relative;
-    min-height: 100vh;
-  }
-
-  #content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
-  }
   
   .copyright {
     float: right;
