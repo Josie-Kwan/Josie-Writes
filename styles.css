@@ -40,7 +40,7 @@ body {
   --ba: calc(1turn / var(--n));
   grid-area: 1 / 1;
   width: var(--w);
-  aspect-ration: 7 / 10;
+  aspect-ration: 4 / 5;
   object-fit: cover;
   border-radius: 1.5em;
   backface-visibility: hidden;
