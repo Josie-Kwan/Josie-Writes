@@ -26,13 +26,14 @@ html {
 .a3d {
   display: grid;
 }
+
  .scene{
    overflow: hidden;
    perspective: 35em;
    mask: linear-gradient(90deg, #0000, red 20% 80%, #0000);
  }
 
-.a3d {
+.a3d img{
   place-self: center;
   transform-style: preserve-3d;
   animation: ry 32s linear infinite;
