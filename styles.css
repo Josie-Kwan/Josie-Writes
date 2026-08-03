@@ -87,6 +87,12 @@ body {
   font-size: 2.5rem;
 }
 
+/*container style used with video page */
+.container {
+  width: 400px;
+  height: 225px;
+}
+
 /* Box for content */
 .box {
   background-color: #f0f0f0;
