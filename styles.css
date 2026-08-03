@@ -11,6 +11,7 @@ body {
   padding-top: 70px;
   font-family: "Oxygen", sans-serif;
   font-size: 1.1rem;
+  display: grid;
 }
 
 /* Header */
