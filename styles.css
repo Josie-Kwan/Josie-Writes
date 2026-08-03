@@ -43,7 +43,7 @@ html {
     transform: rotateY(1turn);
   }
 }
-.card{
+.card {
   --w: 17.5em;
   --ba: calc(1turn / var(--n));
   grid-area: 1 / 1;
@@ -98,21 +98,6 @@ html {
   font-size: 1.2rem;
 }
 
-/* Fullscreen image section */
-.fullscreen-image {
-  display: flex;
-  justify-content: center;
-  alig-items: center;
-  width: auto;
-  margin-top: 70px; /* to offset the fixed header */
-}
-
-.fullscreen-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain; /* scales without cropping */
-}
 
 /* Main Content Area */
 .main-grid {
